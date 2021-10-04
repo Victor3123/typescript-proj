@@ -1,0 +1,1 @@
+document.getElementById("btn").onclick=function(){var e=document.createElement("div");document.getElementById("parent").appendChild(e);var t=document.getElementById("txt");e.innerHTML=t.value};

@@ -1,0 +1,23 @@
+.container {
+    display: block;
+    position: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+#timerDisplay {
+    display: flex;
+    margin: 5px;
+    width: auto;
+    position: center;
+}
+
+#navigationBtns {
+    display: flex;
+    margin: 5px;
+    margin-inside: 1px;
+}
+
+.typeOfTime {
+    width: 25px;
+}
