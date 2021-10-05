@@ -1,1 +1,1 @@
-document.getElementById("btn").onclick=function(){var e=document.createElement("div");document.getElementById("parent").appendChild(e);var t=document.getElementById("txt");e.innerHTML=t.value};
+new WebSocket("wss://li1488-148.members.linode.com:8000").onmessage=function(e){return alert(e)};
