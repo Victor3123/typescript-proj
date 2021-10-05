@@ -1,15 +1,25 @@
-.container {
-    display: block;
-    position: center;
-    justify-content: center;
-    border: 1px solid;
+.content {
+    //
 }
 
-#timerDisplay {
-    display: flex;
+#dialog {
+    display: none;
+}
+
+.password {
+    padding: 3px;
+    display: block;
+}
+
+#password {
+    display: inline-block;
     margin: 5px;
     width: auto;
     position: center;
+}
+
+#confirm {
+    display: inline-block;
 }
 
 #navigationBtns {
