@@ -1,1 +1,1 @@
-new WebSocket("wss://li1488-148.members.linode.com:8000").onmessage=function(e){return alert(e)};
+(()=>{var o=new WebSocket("ws://li1488-148.members.linode.com:8000");o.onopen=function(){return console.log("socket.onopen")},o.onclose=function(){return console.log("socket.onclose")},o.onmessage=function(o){return console.log(o.data)}})();
